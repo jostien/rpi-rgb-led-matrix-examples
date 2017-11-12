@@ -1,6 +1,6 @@
-/*   Shows the mandelbrot speed or time from NAVILOCK gps receiver,
- *   provided the scripts gpsspeed.sh and gpsspeed.py as well as
- *   gpstime.sh and gpstime.py are running correctly.
+/*   Shows speed or time from NAVILOCK gps receiver, provided the scripts
+ *   gpsspeed.sh and gpsspeed.py as well as gpstime.sh and gpstime.py are
+ *   running correctly.
  *   Copyright (C) 2017  Jost Neigenfind
  *
  *   This program is free software: you can redistribute it and/or modify
