@@ -35,9 +35,9 @@ This is my configuration and might be unnecessary together with the correspondin
 `sudo crontab -e`
 
 ## Add the following lines to cronjobs (change &lt;path&gt; correspondingly)
-`@reboot cd /home/pi/&lt;path&gt;/rpi-rgb-led-matrix; ./gps.sh &`
+`@reboot cd /home/pi/<path>/rpi-rgb-led-matrix; ./gps.sh &`
 
-`@reboot cd /home/pi/&lt;path&gt;/rpi-rgb-led-matrix; ./gpsspeed.sh &`
+`@reboot cd /home/pi/<path>/rpi-rgb-led-matrix; ./gpsspeed.sh &`
 
 The last command creates and updates /home/pi/&lt;path&gt;/rpi-rgb-led-matrix/speed.txt.
 
