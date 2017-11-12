@@ -19,9 +19,13 @@ Make also sure that paths are set correctly.
 
 ## Description
 1. First cronjob starts a bash-script which starts gpsd at boot up: **gps.sh**.
-2. Second cronjob starts a bash-script which runs a python-script readíng out the wanted gps-data and saves it to file: **gpsspeed.sh** and **gpsspeed.py** in **speed.txt** as well as **gpstime.sh** and **gpstime.py** in **time.txt**. Found no other, more elegant way to get speed from gps.
-3. Third cronjob starts the led-binary which reads out file containing the gps-data.
+2. Second cronjob starts a bash-script which runs a python-script readíng out the wanted gps-data and saves it to file:
+  1. **gpsspeed.sh** and **gpsspeed.py** in **speed.txt**;
+  2. **gpstime.sh** and **gpstime.py** in **time.txt**.
+3. Optional: Third cronjob starts the led-binary which reads out file containing the gps-data.
 4. It might take some time until the NAVILOCK finds the gps signal. Won't work well in a closed room.
+
+Found no other, more elegant way to get speed or time from gps.
 
 ## Install libraries
 `sudo apt-get install gpsd gpsd-client python-gps`
