@@ -5,7 +5,7 @@ main directory of rpi-rgb-led-matrix.
 
 For wiring the led-matrix see 32x32_matrix_wiring.png.
 
-For building use `./my_make.sh &lt;file&gt;`, without the file ending, e.g. `./my_make.sh mandelbrot`. Run it via `sudo ./mandelbrot`.
+For building use `./my_make.sh <file>;`, without the file ending, e.g. `./my_make.sh mandelbrot`. Run it via `sudo ./mandelbrot`.
 
 For pngs, png++ needs to be installed. If I remember correctly I built it from source.
 
@@ -18,8 +18,8 @@ Make also sure that paths are set correctly.
 3. Libraries: gpsd, gpsd-client, python-gps
 
 ## Description
-1. First cronjob is starting a bash-script running gpsd at boot up: gps.sh
-2. Second cronjob is starting a bash-script running a python-script which reads out the wanted gps-data and saves it in file: gpsspeed.sh and gpsspeed.py as well as gpstime.sh and gpstime.py. Found no more elegant way to get speed from gps.
+1. First cronjob is starting a bash-script running gpsd at boot up: **gps.sh**.
+2. Second cronjob is starting a bash-script running a python-script which reads out the wanted gps-data and saves it in file: **gpsspeed.sh** and **gpsspeed.py** as well as **gpstime.sh** and **gpstime.py**. Found no more elegant way to get speed from gps.
 3. Third cronjob is starting the led-binary which reads out file containing the gps-data.
 4. It might take some time until the NAVILOCK finds the gps signal. Won't work in a closed room.
 
@@ -35,8 +35,8 @@ This is my configuration and this step might be unnecessary.
 `sudo crontab -e`
 
 ## Add the following to cronjobs (change &lt;path&gt; correspondingly)
-`@reboot cd /home/pi/&lt;path&gt;/rpi-rgb-led-matrix; ./gps.sh &`
-`@reboot cd /home/pi/&lt;path&gt;/rpi-rgb-led-matrix; ./gpsspeed.sh &`
+`@reboot cd /home/pi/&lt;path&gt;/rpi-rgb-led-matrix; ./gps.sh &
+@reboot cd /home/pi/&lt;path&gt;/rpi-rgb-led-matrix; ./gpsspeed.sh &`
 
 The last command creates and updates /home/pi/&lt;path&gt;/rpi-rgb-led-matrix/speed.txt.
 
