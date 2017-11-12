@@ -5,7 +5,7 @@ main directory of rpi-rgb-led-matrix.
 
 For wiring the led-matrix see 32x32_matrix_wiring.png.
 
-For building use `./my_make.sh <file>;`, without the file ending, e.g. `./my_make.sh mandelbrot`. Run it via `sudo ./mandelbrot`.
+For building use `./my_make.sh <file>`, without the file ending, e.g. `./my_make.sh mandelbrot`. Run it via `sudo ./mandelbrot`.
 
 For pngs, png++ needs to be installed. If I remember correctly I built it from source.
 
