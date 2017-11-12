@@ -44,7 +44,8 @@ This is my configuration and might be unnecessary together with the correspondin
 `@reboot cd /home/pi/<path>/rpi-rgb-led-matrix; ./gpsspeed.sh &`
 
 The last command creates and updates /home/pi/&lt;path&gt;/rpi-rgb-led-matrix/speed.txt. Then reboot:
-`sudo shutdown -r reboot`
+
+`sudo shutdown -r now`
 
 ## See gps.cc for an example
 Compile via `./my_make.sh gps`.
