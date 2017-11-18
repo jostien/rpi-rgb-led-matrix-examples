@@ -3,7 +3,7 @@ See https://github.com/hzeller/rpi-rgb-led-matrix how to use the led-matrix and 
 If you are able to reproduce the examples there, copy the source from this repository into the
 main directory of rpi-rgb-led-matrix.
 
-For wiring the led-matrix see 32x32_matrix_wiring.png.
+For wiring the LED-matrix see 32x32_matrix_wiring.png.
 
 For building use `./my_make.sh <file>`, without the file ending, e.g. `./my_make.sh mandelbrot`. Run it via `sudo ./mandelbrot`.
 
@@ -37,8 +37,9 @@ Futurama's hypnotoad consists of three pngs with varying eyes. Bikers passing by
 3. Optional: Third cronjob starts the led-binary which reads out file containing the gps-data.
 4. It might take some time until the NAVILOCK finds the gps signal. Won't work well in a closed room.
 
-Found no other, more elegant way to get speed or time from gps. Clearly, speed can be used for controlling
-the speed of the shown programs. E.g., pong runs faster for higher gps-speeds.
+Found no other, more elegant way to get speed or time from gps yet. Clearly, speed needs not to be shown on the LED-matrix,
+it can also be used for controlling the speed of the shown programs, e.g., pong runs faster for higher gps-speeds. Moreover,
+via gpxlogger (included in gpsd or gps-client) it is possible to record the covered distance.
 
 ## Install libraries
 `sudo apt-get install gpsd gpsd-client python-gps`
@@ -64,7 +65,7 @@ The last command creates and updates /home/pi/&lt;path&gt;/rpi-rgb-led-matrix/sp
 Compile via `./my_make.sh gps`.
 
 ## Running setup
-Requirements: A Rucksack. Tested with Salomon Trailrunning Rucksack 12L or 20L. I recommend the 20L rucksack
+Requirements: A rucksack. Tested with Salomon Trailrunning rucksack 12L or 20L. I recommend the 20L rucksack
 because of higher volume. If you plan to use the setup during rainy weather, make sure to seal the contacts
 via a plastic bag or similar.
 
