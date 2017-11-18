@@ -1,4 +1,4 @@
-# Led-matrix
+# LED-matrix
 See https://github.com/hzeller/rpi-rgb-led-matrix how to use the led-matrix and how to compile.
 If you are able to reproduce the examples there, copy the source from this repository into the
 main directory of rpi-rgb-led-matrix.
@@ -12,6 +12,8 @@ For pngs, png++ needs to be installed. If I remember correctly I built it from s
 Make also sure that paths are set correctly.
 
 ## Default setup
+Requirements: A powerbank with two usb-ports, one for the raspi, the other for the LED-matrix, similar
+to [this](https://www.adafruit.com/product/1566).
 
 ![Alt text](images/setup.on.back.jpg?raw=true "Setup")
 
@@ -62,11 +64,15 @@ The last command creates and updates /home/pi/&lt;path&gt;/rpi-rgb-led-matrix/sp
 Compile via `./my_make.sh gps`.
 
 ## Running setup
-Tested with Salomon Trailrunning Rucksack 12L or 20L. I recommend the 20L rucksack because of volume.
+Requirements: A Rucksack. Tested with Salomon Trailrunning Rucksack 12L or 20L. I recommend the 20L rucksack
+because of higher volume.
 
 ![Alt text](images/setup.off.rucksack.outside.jpg?raw=true "Running setup (outside)")
 
 ![Alt text](images/setup.off.rucksack.inside.jpg?raw=true "Running setup (inside)")
+
+The battery goes in the inside, the raspi and the gps receiver are stored in th mesh pocket at the left or right
+outside of the rucksack. Zipper is closed where the cables of the battery leave the rucksack.
 
 ![Alt text](images/setup.on.rucksack.jpg?raw=true "Running setup turned on")
 
