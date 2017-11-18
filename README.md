@@ -11,6 +11,16 @@ For pngs, png++ needs to be installed. If I remember correctly I built it from s
 
 Make also sure that paths are set correctly.
 
+## Default setup
+
+![Alt text](images/setup.off.jpg?raw=true "Setup")
+
+![Alt text](images/setup.on.jpg?raw=true "Setup turned on")
+
+![Alt text](images/hypnotoad.jpg?raw=true "Hypnotoad with speed")
+
+Futurama's hypnotoad consists of three pngs with varying eyes.
+
 # Gps
 ## Requirements
 1. Raspberry pi model B
@@ -25,7 +35,8 @@ Make also sure that paths are set correctly.
 3. Optional: Third cronjob starts the led-binary which reads out file containing the gps-data.
 4. It might take some time until the NAVILOCK finds the gps signal. Won't work well in a closed room.
 
-Found no other, more elegant way to get speed or time from gps.
+Found no other, more elegant way to get speed or time from gps. Clearly, speed can be used for controlling
+the speed of the shown programs. E.g., pong runs faster for higher gps-speeds.
 
 ## Install libraries
 `sudo apt-get install gpsd gpsd-client python-gps`
@@ -49,3 +60,15 @@ The last command creates and updates /home/pi/&lt;path&gt;/rpi-rgb-led-matrix/sp
 
 ## See gps.cc for an example
 Compile via `./my_make.sh gps`.
+
+## Running setup
+Tested with Salomon Trailrunning Rucksack 12L or 20L. I recommend the 20L rucksack because of volume.
+
+![Alt text](images/setup.off.rucksack.outside?raw=true "Running setup (outside)")
+
+![Alt text](images/setup.off.rucksack.inside?raw=true "Running setup (inside)")
+
+![Alt text](images/setup.on.rucksack?raw=true "Running setup turned on")
+
+If you also plan to use the setup during rainy weather, make sure to seal the contacts via a plastic bag
+or similar.
