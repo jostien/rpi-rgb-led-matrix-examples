@@ -12,16 +12,16 @@ For pngs, png++ needs to be installed. If I remember correctly I built it from s
 Make also sure that paths are set correctly.
 
 ## Default setup
-Requirements: A powerbank with two usb-ports, one for the raspi, the other for the LED-matrix, similar
-to [this](https://www.adafruit.com/product/1566).
+Requirements: A powerbank with two usb-ports, one for the raspi, the other for the LED-matrix, similar to [this](https://www.adafruit.com/product/1566).
+The thing on the raspi usb-port (gps receiver) is not required for the default setup.
 
-![Alt text](images/setup.on.back.jpg?raw=true "Setup")
+![Alt text](images/setup.on.back.jpg?raw=true "Setup") 
 
 ![Alt text](images/setup.on.front.jpg?raw=true "Setup turned on")
 
-![Alt text](images/hypnotoad.jpg?raw=true "Hypnotoad with speed")
+Futurama's hypnotoad consists of three pngs with varying eyes. Bikers passing by from behind will obey.
 
-Futurama's hypnotoad consists of three pngs with varying eyes.
+![Alt text](images/hypnotoad.jpg?raw=true "Hypnotoad with speed")
 
 # Gps
 ## Requirements
@@ -65,7 +65,8 @@ Compile via `./my_make.sh gps`.
 
 ## Running setup
 Requirements: A Rucksack. Tested with Salomon Trailrunning Rucksack 12L or 20L. I recommend the 20L rucksack
-because of higher volume.
+because of higher volume. If you plan to use the setup during rainy weather, make sure to seal the contacts
+via a plastic bag or similar.
 
 ![Alt text](images/setup.off.rucksack.outside.jpg?raw=true "Running setup (outside)")
 
@@ -75,5 +76,3 @@ The battery goes into the inside, the raspi and the gps receiver are stored in t
 outside of the rucksack. Zipper is closed where the cables of the battery leave the rucksack.
 
 ![Alt text](images/setup.on.rucksack.jpg?raw=true "Running setup turned on")
-
-If you plan to use the setup during rainy weather, make sure to seal the contacts via a plastic bag or similar.
