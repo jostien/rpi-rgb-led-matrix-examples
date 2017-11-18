@@ -1,5 +1,5 @@
 # LED-matrix
-See https://github.com/hzeller/rpi-rgb-led-matrix how to use the led-matrix and how to compile.
+See https://github.com/hzeller/rpi-rgb-led-matrix how to use the LED-matrix and how to compile.
 If you are able to reproduce the examples there, copy the source from this repository into the
 main directory of rpi-rgb-led-matrix.
 
