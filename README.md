@@ -71,7 +71,7 @@ because of higher volume.
 
 ![Alt text](images/setup.off.rucksack.inside.jpg?raw=true "Running setup (inside)")
 
-The battery goes in the inside, the raspi and the gps receiver are stored in th mesh pocket at the left or right
+The battery goes into the inside, the raspi and the gps receiver are stored in the mesh pocket at the left or right
 outside of the rucksack. Zipper is closed where the cables of the battery leave the rucksack.
 
 ![Alt text](images/setup.on.rucksack.jpg?raw=true "Running setup turned on")
