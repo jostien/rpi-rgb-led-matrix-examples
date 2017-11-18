@@ -13,9 +13,9 @@ Make also sure that paths are set correctly.
 
 ## Default setup
 
-![Alt text](images/setup.off.jpg?raw=true "Setup")
+![Alt text](images/setup.on.back.jpg?raw=true "Setup")
 
-![Alt text](images/setup.on.jpg?raw=true "Setup turned on")
+![Alt text](images/setup.on.front.jpg?raw=true "Setup turned on")
 
 ![Alt text](images/hypnotoad.jpg?raw=true "Hypnotoad with speed")
 
@@ -64,11 +64,10 @@ Compile via `./my_make.sh gps`.
 ## Running setup
 Tested with Salomon Trailrunning Rucksack 12L or 20L. I recommend the 20L rucksack because of volume.
 
-![Alt text](images/setup.off.rucksack.outside?raw=true "Running setup (outside)")
+![Alt text](images/setup.off.rucksack.outside.jpg?raw=true "Running setup (outside)")
 
-![Alt text](images/setup.off.rucksack.inside?raw=true "Running setup (inside)")
+![Alt text](images/setup.off.rucksack.inside.jpg?raw=true "Running setup (inside)")
 
-![Alt text](images/setup.on.rucksack?raw=true "Running setup turned on")
+![Alt text](images/setup.on.rucksack.jpg?raw=true "Running setup turned on")
 
-If you also plan to use the setup during rainy weather, make sure to seal the contacts via a plastic bag
-or similar.
+If you plan to use the setup during rainy weather, make sure to seal the contacts via a plastic bag or similar.
